@@ -1,0 +1,25 @@
+Links Wireframe
+
+- index.html
+	* Desktop: https://wireframe.cc/FiEoDB
+	* Mobile: https://wireframe.cc/LGJLmy
+
+- nosotros.html
+	* Desktop: https://wireframe.cc/0sc4VC
+	* Mobile: https://wireframe.cc/URu5V6
+
+- productos.html
+	* Desktop: https://wireframe.cc/pv06Wk
+	* Mobile: https://wireframe.cc/OQRRr0
+
+- servicios.html
+	* Desktop: https://wireframe.cc/hn7yve
+	* Mobile: https://wireframe.cc/At0Xyh
+
+- marcas.html
+	* Desktop: https://wireframe.cc/HsWuic
+	* Mobile: https://wireframe.cc/OamJDu
+
+- contacto.html
+	* Desktop: https://wireframe.cc/zTd1d7
+	* Mobile: https://wireframe.cc/Jfu6wW

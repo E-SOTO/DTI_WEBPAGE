@@ -36,8 +36,14 @@ h4{
     color: rgba(78, 95, 105, 41);
 }
 
+h5{
+    font-size: 3rem;
+    color: rgba(78, 95, 105, 41);
+}
+
+
 p{
-    
+    font-size: 2rem;
     color: rgba(78, 95, 105, 41);
 }
 
@@ -58,6 +64,7 @@ nav{
 
 /*---------------HEADER---------------*/
 
+
 .header__button{
     width: 64px;
     height: 64px;
@@ -73,12 +80,38 @@ nav{
 
 /*---------------INDEX---------------*/
 .header__img{
-    width: 128px;
+    width: 65px;
 }
 .header__img--social{
     padding: 0px 10px;
     width: 50px;
 }
+
+.section__img{
+}
+
+.section__img--carrousel{
+    height: 93vh;
+    object-fit: cover;
+}
+
+.section_button--carrousel{
+    color: red;
+}
+
+.container--index{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "titulo"
+    "lista"
+    "imagen"
+    "info";
+}
+
 
 
 /*---------------BREAK POINTS---------------*/

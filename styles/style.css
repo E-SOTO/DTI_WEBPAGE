@@ -41,9 +41,18 @@ h5{
     color: rgba(78, 95, 105, 41);
 }
 
+h1,h2,h3,h4,h5{
+    overflow-y: hidden;
+}
+
 
 p{
     font-size: 2rem;
+    color: rgba(78, 95, 105, 41);
+}
+
+li{
+    font-size: 2.5rem;
     color: rgba(78, 95, 105, 41);
 }
 
@@ -87,9 +96,6 @@ nav{
     width: 50px;
 }
 
-.section__img{
-}
-
 .section__img--carrousel{
     height: 93vh;
     object-fit: cover;
@@ -99,19 +105,18 @@ nav{
     color: red;
 }
 
-.container--index{
-    width: 100vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "titulo"
-    "lista"
-    "imagen"
-    "info";
-}
+/*---------------Section services---------------*/
 
+.section__img--services{
+    width: 512px;
+}
+.section__lista--services, .section__imagen--services, .section__texto--services{
+    min-width: 33%;
+}
+.section__li--services{
+    padding: 1.5rem;
+    margin-right: 20px;
+}
 
 
 /*---------------BREAK POINTS---------------*/

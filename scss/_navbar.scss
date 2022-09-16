@@ -1,0 +1,33 @@
+nav{
+    background-color: rgba(179, 216, 238, 93);
+    /* justify-content: space-between; */
+    ul{
+        li{
+            font-size: $textLi;
+            margin-right: 20px;
+            
+        }
+    }
+}
+
+
+.header__button{
+    width: 64px;
+    height: 64px;
+}
+
+.header__li{
+    padding: 0px 15px
+}
+
+.header__a{
+    color: $tertiaryTextColor;
+}
+
+.header__img{
+    width: 65px;
+}
+.header__img--social{
+    padding: 0px 10px;
+    width: 50px;
+}

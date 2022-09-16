@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: white;
+}
+
+h1, h2, h3, h4, h5, img {
+  color: rgb(78, 95, 105);
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(81, 145, 181);
+}
+
+h2 {
+  /* font-size: 4rem; */
+  font-size: 4rem;
+  color: rgb(81, 145, 181);
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+  color: rgb(78, 95, 105);
+}
+
+li {
+  font-size: 2.5rem;
+  color: rgb(78, 95, 105);
+}
+
+nav {
+  background-color: rgb(179, 216, 238);
+  /* justify-content: space-between; */
+}
+nav ul li {
+  font-size: 2.5rem;
+  margin-right: 20px;
+}
+
+.header__button {
+  width: 64px;
+  height: 64px;
+}
+
+.header__li {
+  padding: 0px 15px;
+}
+
+.header__a {
+  color: white;
+}
+
+.header__img {
+  width: 65px;
+}
+
+.header__img--social {
+  padding: 0px 10px;
+  width: 50px;
+}
+
+/*---------------INDEX---------------*/
+.section__img--carrousel {
+  height: 93vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section_button--carrousel {
+  color: red;
+}
+
+/*---------------Section services---------------*/
+.section__img--services {
+  width: 512px;
+}
+
+.section__lista--services, .section__imagen--services, .section__texto--services {
+  min-width: 33%;
+}
+
+.section__li--services {
+  padding: 1.5rem;
+  margin-right: 20px;
+}
+
+/*---------------Section why---------------*/
+.section__img--why {
+  width: 128px;
+}
+
+/*---------------Section discover---------------*/
+.section__discover {
+  padding: 30px 42px;
+  background-image: url(../images/fondo-principal.jpg);
+  height: 100vh;
+  background-repeat: round;
+  background-attachment: fixed;
+}
+
+/*---------------COLORS--------------*/
+.principal {
+  background-color: rgb(179, 216, 238);
+}
+
+.secundario {
+  background-color: rgb(81, 145, 181);
+}
+
+.principalText {
+  color: white;
+}
+
+/*---------------BREAK POINTS---------------*/
+.footer__img {
+  width: 128px;
+}
+
+.footer__li {
+  font-size: 2.5rem;
+}/*# sourceMappingURL=main.css.map */

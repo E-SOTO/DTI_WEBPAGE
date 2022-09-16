@@ -1,0 +1,56 @@
+/*---------------INDEX---------------*/
+
+
+.section__img--carrousel{
+    height: 93vh;
+    object-fit: cover;
+}
+
+.section_button--carrousel{
+    color: red;
+}
+
+/*---------------Section services---------------*/
+
+.section__img--services{
+    width: 512px;
+}
+.section__lista--services, .section__imagen--services, .section__texto--services{
+    min-width: 33%;
+}
+.section__li--services{
+    padding: 1.5rem;
+    margin-right: 20px;
+}
+
+
+/*---------------Section why---------------*/
+
+.section__img--why{
+    width: 128px;
+}
+
+
+/*---------------Section discover---------------*/
+
+.section__discover{
+    padding: 30px 42px;
+    background-image: url(../images/fondo-principal.jpg);
+    height: 100vh;
+    background-repeat:round;
+    background-attachment: fixed;
+}
+/*---------------COLORS--------------*/
+.principal{
+    background-color: rgba(179, 216, 238, 93);
+}
+
+.secundario{
+    background-color: rgba(81, 145, 181, 71);
+}
+
+.principalText{
+    color: white;
+}
+
+/*---------------BREAK POINTS---------------*/

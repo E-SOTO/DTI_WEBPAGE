@@ -1,10 +1,12 @@
 //variables
-$primaryColor:rgba(100, 178, 224, 1);
-$secondaryColor: rgba(177, 214, 236, 1);
-$primaryTitleColor: rgba(81, 145, 181, 1);
-$secondaryTittleColor: rgba(78, 95, 105, 1);
-$primaryTextColor: rgba(78, 95, 105, 1);
-$tertiaryTextColor: white;
+$colores:(
+    'primaryColor':rgba(100, 178, 224, 1),
+    'secondaryColor': rgba(177, 214, 236, 1),
+    'primaryTitleColor': rgba(81, 145, 181, 1),
+    'secondaryTittleColor': rgba(78, 95, 105, 1),
+    'primaryTextColor': rgba(78, 95, 105, 1),
+    'tertiaryTextColor': white,
+);
 
 *{
     font-family: $mainFont;
@@ -23,19 +25,19 @@ body{
 }
 
 h1,h2,h3,h4,h5,img{
-    color: $secondaryTittleColor;
+    color: map-get($map: $colores, $key: 'secondaryTittleColor' );
     overflow-y: hidden;
 }
 
 h1{
     font-size: $textH1;
-    color: $primaryTitleColor
+    color: map-get($map: $colores, $key: 'primaryTitleColor' );
 }
 
 h2{
     /* font-size: 4rem; */
     font-size: $textH2;
-    color: $primaryTitleColor
+    color: map-get($map: $colores, $key: 'primaryTitleColor' );
 }
 
 h3{
@@ -52,7 +54,7 @@ h5{
 
 p{
     font-size: $textP;
-    color: $primaryTextColor;
+    color: map-get($map: $colores, $key: 'primaryTitleColor' );
 }
 
 li{

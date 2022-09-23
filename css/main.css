@@ -53,6 +53,17 @@ li {
   color: rgb(78, 95, 105);
 }
 
+.btn-dti, .btn-principal {
+  width: 100px;
+}
+.btn-dti:hover, .btn-principal:hover {
+  background: rgb(100, 178, 224);
+}
+
+.btn-principal {
+  background-color: rgb(81, 145, 181);
+}
+
 nav {
   background-color: rgb(179, 216, 238);
   /* justify-content: space-between; */

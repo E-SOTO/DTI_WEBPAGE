@@ -1,0 +1,12 @@
+.btn-dti{
+    width: 100px;
+    &:hover{
+        background: $primaryColor;
+    }
+    
+}
+
+.btn-principal{
+    @extend .btn-dti;
+    background-color: rgba(81, 145, 181, 71);
+}

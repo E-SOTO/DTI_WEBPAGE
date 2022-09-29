@@ -5,6 +5,7 @@ $colores:(
     'primaryTitleColor': rgba(81, 145, 181, 1),
     'secondaryTittleColor': rgba(78, 95, 105, 1),
     'primaryTextColor': rgba(78, 95, 105, 1),
+    'secondaryTextColor': rgba(78, 95, 105, .6),
     'tertiaryTextColor': white,
 );
 
@@ -54,10 +55,18 @@ h5{
 
 p{
     font-size: $textP;
-    color: map-get($map: $colores, $key: 'primaryTitleColor' );
+    color: map-get($map: $colores, $key: 'secondaryTextColor' );
 }
 
 li{
-    font-size: $textLi;
+    font-size: $textNav;
     color: rgba(78, 95, 105, 41);
+}
+section{
+    padding: 3rem;
+    @include flex(column,center,center);
+}
+label{
+    font-size: $textLabel;
+    color: map-get($map: $colores, $key: 'primaryTitleColor' );
 }

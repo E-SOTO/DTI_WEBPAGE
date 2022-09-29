@@ -3,7 +3,7 @@ nav{
     /* justify-content: space-between; */
     ul{
         li{
-            font-size: $textLi;
+            font-size: $textNav;
             margin-right: 20px;
             
         }
@@ -21,7 +21,7 @@ nav{
 }
 
 .header__a{
-    color: $tertiaryTextColor;
+    color: map-get($map: $colores, $key: 'tertiaryTextColor' );
 }
 
 .header__img{

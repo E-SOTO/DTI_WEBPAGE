@@ -1,7 +1,22 @@
+.footer{
+    color: map-get($map: $colores, $key: 'tertiaryTextColor');
+}
 .footer__img{
     width: 128px;
 }
+.footer__div{
+    margin-top: 2rem;
+}
+
+.footer__h3{
+    color: map-get($map: $colores, $key: 'tertiaryTextColor');
+}
 
 .footer__li{
-    font-size: $textLi;
+    font-size: $textFooter;
+    color: map-get($map: $colores, $key: 'tertiaryTextColor');
+}
+
+.footer__p{
+    color: map-get($map: $colores, $key: 'tertiaryTextColor');
 }

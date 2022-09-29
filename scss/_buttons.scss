@@ -1,7 +1,7 @@
 .btn-dti{
     width: 100px;
     &:hover{
-        background: $primaryColor;
+        background: map-get($map: $colores, $key: 'primaryTitleColor' );
     }
     
 }

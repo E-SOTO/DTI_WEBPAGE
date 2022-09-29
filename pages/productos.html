@@ -62,7 +62,7 @@
         <section class="">
             <div class="container-fluid d-flex flex-column flex-sm-column flex-md-row flex-lg-row">
                 <img src="../images/products.png" alt="imagen contacto" class="section__img">
-                <div class="container-fluid d-flex flex-column flex-sm-column flex-md-row flex-lg-column">
+                <div class="container-fluid d-flex flex-column justify-content-center">
                     <h1>Los mejores productos para tu negocio</h1>
                     <h2>Tenemos cientos de productos de diferentes marcas para ti</h2>
                 </div>
@@ -216,47 +216,58 @@
         </section>
     </main>
 
-    <footer class="container-fuid secundario p-5">
-        <div class="row">
+    <footer class="footer container-fuid secundario p-5">
+        <div class="footer__row row">
 
             <!-- logo DTI -->
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="footer__logo col-sm-12 col-md-6 col-lg-3">
                 <a href="index.html" class="header__a">
                     <img src="../images/logo-DTI.jpeg" alt="logo de DTI Dimensional México" class="footer__img">
                 </a>
             </div>
 
             <!-- correo electrónico -->
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <h5 class="principalText">Correo electrónico</h5>
+            <div class="footer__div col-sm-12 col-md-6 col-lg-3">
+                <h3 class="footer__h3">Correo electrónico</h5>
                 <ul class="nav flex-column">
-                <li class=" footer__li principalText nav-item mb-2">ventas1@dtidimensional.mx</li>
+                <li class=" footer__li  nav-item mb-2">ventas1@dtidimensional.mx</li>
                 </ul>
             </div>
         
             <!-- teléfono -->
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <h5 class="principalText">Teléfono</h5>
+            <div class="footer__div col-sm-12 col-md-6 col-lg-3">
+                <h3 class="footer__h3">Teléfono</h5>
                 <ul class="nav flex-column">
-                <li class="footer__li principalText nav-item mb-2">(442) 248-0107</li>
+                <li class="footer__li  nav-item mb-2">(442) 248-0107</li>
                 </ul>
             </div>
         
             <!-- Horarios -->
-            <div class="section__horarios col-sm-12 col-md-6 col-lg-3">
-                <h3 class="principalText">Horarios de atención</h3>
-                <ul class="section__horarios--foter nav flex-column">
-                    <li class="footer__li principalText nav-item mb-2">Lunes a Jueves: 8:30am a 18:00pm</li>
-                    <li class="footer__li principalText nav-item mb-2">Lunes a Viernes: 8:30am a 17:00pm</li>
-                </ul>
+            <div class="footer__div col-sm-12 col-md-6 col-lg-3">
+                <h3 class="footer__h3 ">Horarios de atención</h3>
+                <div class="d-flex flex-row justify-content-between">
+                    <div>
+                        <ul class="nav flex-column">
+                            <li class="footer__li  nav-item mb-2 ">Lunes-Jueves:</li>
+                            <li class="footer__li  nav-item mb-2 border-top">Viernes:</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="nav flex-column">
+                            <li class="footer__li  nav-item mb-2 ">8:30 am-18:00 pm</li>
+                            <li class="footer__li  nav-item mb-2 border-top">8:30 am-17:00 pm</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             </div>
         
             <!-- Redes y Copyright -->
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p class="principalText">&copy; 2022 DTI Dimensional México SA de CV. Todos los derechos reservados</p>
-                <ul class="list-unstyled d-flex">
+            <div class="footer__div d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p class="footer__p">&copy; 2022 DTI Dimensional México SA de CV.</p>
+            <p class="footer__p">Todos los derechos reservados</p>
+                <ul class="list-unstyled d-flex mt-3">
                     <li class="footer__li ms-3"><a class="link-dark" href="#"><img src="../images/redes/facebook.png" alt="icono facebook" class="header__img--social"></a></li>
                     <li class="footer__li ms-3"><a class="link-dark" href="#"><img src="../images/redes/instagram.png" alt="icono instagram" class="header__img--social"></a></li>
                     <li class="footer__li ms-3"><a class="link-dark" href="#"><img src="../images/redes/whatsapp.png" alt="icono telefono" class="header__img header__img--social"></a></li>

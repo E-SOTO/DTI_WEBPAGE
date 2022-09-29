@@ -45,7 +45,7 @@ h5 {
 
 p {
   font-size: 2rem;
-  color: rgb(78, 95, 105);
+  color: rgba(78, 95, 105, 0.6);
 }
 
 li {
@@ -53,11 +53,24 @@ li {
   color: rgb(78, 95, 105);
 }
 
+section {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: section justi;
+  align-items: center;
+}
+
+label {
+  font-size: 2rem;
+  color: rgb(81, 145, 181);
+}
+
 .btn-dti, .btn-principal {
   width: 100px;
 }
 .btn-dti:hover, .btn-principal:hover {
-  background: rgb(100, 178, 224);
+  background: rgb(81, 145, 181);
 }
 
 .btn-principal {
@@ -148,10 +161,27 @@ nav ul li {
 }
 
 /*---------------BREAK POINTS---------------*/
+.footer {
+  color: white;
+}
+
 .footer__img {
   width: 128px;
 }
 
+.footer__div {
+  margin-top: 2rem;
+}
+
+.footer__h3 {
+  color: white;
+}
+
 .footer__li {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.footer__p {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

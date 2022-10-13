@@ -74,7 +74,7 @@
         <!-- Seccion formulario contacto -->
         <section class="section__formulario">
             <div class="section__contacto container-fluid d-flex flex-column flex-sm-column flex-md-row flex-lg-row">
-                <div class="section__info--contacto mb-5 col-sm-12 col-md-6 col-lg-6">
+                <div class="section__info--contacto mb-5 col-sm-12 col-md-6 col-lg-4">
                     <h2>Habla con nosotros</h2>
                     <h3>Números telefónicos</h3>
                     <p>(442) 248-0107</p>
@@ -83,41 +83,29 @@
                     <h3>Ubicación</h3>
                     <p>Querétaro</p>
                 </div>
-                <div class="section__form--contacto col-sm-12 col-md-6 col-lg-6">
-                    <h2>Contestamos tus dudas o comentarios</h2>
-                    <p>Completa los campos y te atenderemos lo antes posible</p>
-                    <form>
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre(s)</label>
-                            <input type="text" class="form-control" id="nombre">
-                        </div>
-                        <div class="mb-3">
-                            <label for="apellido" class="form-label">Apellido(s)</label>
-                            <input type="text" class="form-control" id="apellido">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="tel" class="form-label">Teléfono Celular</label>
-                            <input type="tel" class="form-control" id="tel" >
-                        </div>
-                        <div class="mb-3">
-                            <label for="compania" class="form-label">Compañia</label>
-                            <input type="text" class="form-control" id="compania">
-                        </div>
-                        <div class="mb-3">
-                          <label for="mensaje" class="form-label">Mensaje</label>
-                          <textarea class="form-control" name="" id="mensaje" cols="30" rows="10"></textarea>
-                        </div>
-                        <div class="d-flex justify-content-center align-items-center py-4">
-                            <button type="submit" href="#" class="btn secundario btn-lg text-white">Ver más</button>
-                        </div>
-                      </form>
+                <div class="section__form--contacto col-sm-12 col-md-6 col-lg-8">
+                    <h2 >Contestamos tus dudas o comentarios</h2>
+                    <!-- <p>Completa los campos y te atenderemos lo antes posible</p> -->
+                    <!-- Quotient Lead Form -->
+                    
+                    <iframe
+                    class="section_formulario--frame"
+                    id="JotFormIFrame-222827480382863"
+                    title="Contacto DTI"
+                    onload="window.parent.scrollTo(0,0)"
+                    allowtransparency="true"
+                    allowfullscreen="true"
+                    allow="geolocation; microphone; camera"
+                    src="https://form.jotform.com/222827480382863"
+                    frameborder="0"
+                    scrolling="no"
+                >
+                </iframe>
+                    <!-- End Quotient Lead Form -->
                 </div>
             </div>
         </section>
+        
     </main>
     
 
@@ -181,5 +169,6 @@
       </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      <script src="../js/form-contacto.js"></script>
 </body>
 </html>

@@ -147,6 +147,13 @@ nav ul li {
   background-attachment: fixed;
 }
 
+/*---------------CONTACTO---------------*/
+.section_formulario--frame {
+  min-width: 100%;
+  height: 539px;
+  border: none;
+}
+
 /*---------------COLORS--------------*/
 .principal {
   background-color: rgb(179, 216, 238);

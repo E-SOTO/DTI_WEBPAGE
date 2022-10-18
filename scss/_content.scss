@@ -1,14 +1,25 @@
 /*---------------INDEX---------------*/
 
 
-.section__img--carrousel{
-    height: 93vh;
-    object-fit: cover;
+/*----------Portada----------*/
+
+.portada__div--index{
+    width: 100%;
+    height: 95vh;
+    //background-image: url(../images/portadas/Science_Monochromatic.svg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../images/portadas/portada-dti.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
 }
 
-.section_button--carrousel{
-    color: red;
+.portada__h1--index, .portada__h2--index{
+    color: map-get($map: $colores, $key: 'tertiaryTittleColor' );
 }
+
 
 /*---------------Section services---------------*/
 

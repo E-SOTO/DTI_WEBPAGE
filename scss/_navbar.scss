@@ -1,5 +1,5 @@
 nav{
-    background-color: rgba(179, 216, 238, 93);
+    background-color: map-get($map: $colores, $key: 'primaryColor' );
     /* justify-content: space-between; */
     ul{
         li{
@@ -10,10 +10,20 @@ nav{
     }
 }
 
-
 .header__button{
+    border-color: map-get($map: $colores, $key: 'quartiaryColor' );
     width: 64px;
     height: 64px;
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+
+.header__svg{
+    width: 32px;
+    height: 32px;
+    fill: map-get($map: $colores, $key: 'quartiaryColor' );
 }
 
 .header__li{

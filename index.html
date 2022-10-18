@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Somos distribuidores de cómputo, licenciamiento de software, hardware, energía, refacciones, y consumibles, en la ciudad de Querétaro.">
     <meta name="keywords" content="cómputo, tecnología, licenciamiento, realidad aumentada, digital signage, hardware, consumibles, laptops, distribuidores">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
     <title>DTI Dimensional México | Distribuidores de cómputo en Querétaro | Inicio</title>
@@ -16,15 +16,17 @@
     <header class="header">
         <nav class=" header__nav navbar navbar-expand-lg">
             <div class="header__div--nav container-fluid">
-                <a href="index.html" class="header__a">
-                    <img src="images/logo-DTI.jpeg" alt="logo de DTI Dimensional México" class="header__img">
+                <a class="header__a" href="index.html">
+                    <img class="header__img" src="images/logo-DTI.jpeg" alt="logo de DTI Dimensional México">
                 </a>
                 <button class="header__button navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="header__span navbar-toggler-icon"></span>
+                    <svg class="header__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
                 </button>
                 <div class="header__menu collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="header__ul navbar-nav mx-auto mb-4 mb-lg-0">
-                        <li class="header__li nav-item">
+                        <li class="header__li nav-item mt-4">
                             <a class="header__a nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="header__li nav-item">
@@ -44,13 +46,13 @@
                         </li>
                     </ul>
                     <div class="header__social">
-                        <a href="#" class=" header__a header__a--social">
+                        <a href="https://www.facebook.com/profile.php?id=100063787711025" class=" header__a header__a--social" target="_blank">
                             <img src="images/redes/facebook.png" alt="icono facebook" class="header__img--social">
                         </a>
-                        <a href="#" class=" header__a header__a--social">
+                        <a href="https://www.instagram.com/dtidimensional/" class=" header__a header__a--social" target="_blank">
                             <img src="images/redes/instagram.png" alt="icono instagram" class="header__img--social">
                         </a>
-                        <a href="#" class=" header__a header__a--social">
+                        <a href="#" class=" header__a header__a--social" target="_blank">
                             <img src="images/redes/whatsapp.png" alt="icono telefono" class="header__img header__img--social">
                         </a>
                     </div>
@@ -60,43 +62,18 @@
     </header>   
 
     <main>
-        <section class=" section__carrousel carousel slide" data-bs-ride="false">
-            <div class="section__indicators--carrousel carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-                <div class="section__images--carrousel carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/principal.svg" class="section__img--carrousel w-100" alt="imagen DTI bienvenida">
-                        <div class="mb-5 carousel-caption">
-                        <h3>DTI DIMENSIONAL MÉXICO</h3>
-                        <p>Distribuidores de Cómputo y Tecnología en México</p>
-                        </div>
-                    </div>
-                    <!-- <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                        </div> -->
+        <section class="portada">
+            <div class="portada__div--index d-flex flex-column">
+                <div class="portada__texto--index flex-grow-1 d-flex flex-column justify-content-center text-center">
+                    <h1 class="portada__h1--index mb-5">Distribuidores de Cómputo y Tecnología en Querétaro</h1>
+                    <h2 class="portada__h2--index">DTI DIMENSIONAL</h2>
+                </div>
+                <div class="section__svg--index" style="height: 150px; overflow: hidden;" >
+                    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                        <path d="M-77.59,25.17 C178.04,257.08 200.05,-72.52 531.31,75.50 L503.10,152.47 L0.00,150.00 Z" style="stroke: none; fill: #5191b5;"></path>
+                    </svg>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
         </section>
 
         <section class="section p-5">
@@ -298,7 +275,7 @@
             </div>
       </footer>
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <script src="js/wow.min.js"></script>
     <script>

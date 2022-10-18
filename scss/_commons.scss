@@ -1,9 +1,12 @@
 //variables
 $colores:(
-    'primaryColor':rgba(100, 178, 224, 1),
+    'primaryColor':rgba(81, 145, 181, 1),
     'secondaryColor': rgba(177, 214, 236, 1),
+    'tertiaryColor':rgba(100, 178, 224, 1),
+    'quartiaryColor':white,
     'primaryTitleColor': rgba(81, 145, 181, 1),
     'secondaryTittleColor': rgba(78, 95, 105, 1),
+    'tertiaryTittleColor':white,
     'primaryTextColor': rgba(78, 95, 105, 1),
     'secondaryTextColor': rgba(78, 95, 105, .6),
     'tertiaryTextColor': white,
@@ -62,10 +65,10 @@ li{
     font-size: $textNav;
     color: rgba(78, 95, 105, 41);
 }
-section{
+/*section{
     padding: 3rem;
     @include flex(column,center,center);
-}
+}*/
 label{
     font-size: $textLabel;
     color: map-get($map: $colores, $key: 'primaryTitleColor' );
